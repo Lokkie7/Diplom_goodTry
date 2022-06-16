@@ -1,6 +1,4 @@
-pipeline{
-  agent {label 'мастер'}
-  
+pipeline{  
   stages{
     stage('Hello'){
       steps {
