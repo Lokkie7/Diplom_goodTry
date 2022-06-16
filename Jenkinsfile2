@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('Hello'){
       steps{
-        sh 'ansible-playbook all -i hosts test.yaml'
+        sh 'ansible-playbook all -i inventory/hosts test.yaml'
        }
       }
     }
