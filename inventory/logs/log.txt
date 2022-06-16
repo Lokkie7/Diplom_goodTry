@@ -1,0 +1,20 @@
+1.jenkins-centos-basic-1-1-10gb-3.novalocal
+------------------------ Test 1 --------------------------
+#Проверка времени работы сервера
+- Output: 
+15:23:51 up 4:24, 2 users, load average: 0.14, 0.06, 0.06
+- Result: 
+INFO: Uptime is greater than day
+WARNING: Uptime is less than or equal day
+----------------------------------------------------------
+----------------------------------------------------------
+1.jenkins-centos-basic-1-1-10gb-3.novalocal
+------------------------ Test 1 --------------------------
+#Проверка времени работы сервера
+- Output: 
+15:24:31 up 4:24, 2 users, load average: 0.07, 0.05, 0.05
+- Result: 
+INFO: Uptime is greater than day
+WARNING: Uptime is less than or equal day
+----------------------------------------------------------
+----------------------------------------------------------
