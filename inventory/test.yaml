@@ -25,15 +25,3 @@
     ansible.builtin.file:
       path: "/home/centos/logs/log.txt"
       state: absent
-
-  - name: Sending a log
-    community.general.mail:
-      host: smtp.gmail.com
-      port: 587
-      username: dizasterwithdezpair
-      password: 10.15.Under.Soln
-      to: Elizabeth Zaporozhchenko <liza090900@mail.ru>
-      subject: Ansible-report
-      body: The log is here.
-      attach: ./logs/log.txt
-    delegate_to: localhost
