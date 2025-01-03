@@ -23,11 +23,12 @@
 
 yc managed-kubernetes cluster get-credentials k8s-cluster --external
 
-Ожидаемый результат:
+Пример конфигурационного файла ~/.kube/config представлен в корне текущего репозитория в файле - kubeconfig-example. Чувствительная информация скрыта.
 
-Работоспособный Kubernetes кластер.
-В файле ~/.kube/config находятся данные для доступа к кластеру.
-Команда kubectl get pods --all-namespaces отрабатывает без ошибок.
+Команда kubectl get pods --all-namespaces отрабатывает без ошибок:
+
+![image](https://github.com/user-attachments/assets/16043aec-b787-4419-bba3-0ef2ca5f641d)
+
 
 Создание тестового приложения
 
