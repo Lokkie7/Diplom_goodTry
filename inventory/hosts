@@ -1,3 +1,0 @@
-[kafka]
-85.192.33.38 ansible_user=centos
-109.120.189.224 ansible_user=centos
