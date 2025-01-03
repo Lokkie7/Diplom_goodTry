@@ -9,7 +9,7 @@
 1-service-account
 1.1- создать secret key для сервисного аккаунта вручную, использовать его данные для дальнейшей конфигурации terraform
 2-bucket
-3-project
+настройка сохранения стейта
 
 Все конфигурации представлены в корне текущего репозитория. Чувствительная информация : ключи, id, имена ресурсов намеренно скрыты.
 
@@ -18,6 +18,10 @@
 ![image](https://github.com/user-attachments/assets/fe4cdf3f-dcce-4472-947f-ace939be44db)
 
 Создание Kubernetes кластера
+
+Создание кластера kubernetes выполняется в директории 3-project. После разворачивания инфраструктуры был настроен файл ~/.kube/config командой:
+
+yc managed-kubernetes cluster get-credentials k8s-cluster --external
 
 Ожидаемый результат:
 
