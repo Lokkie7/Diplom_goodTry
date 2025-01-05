@@ -32,7 +32,5 @@ yc managed-kubernetes cluster get-credentials k8s-cluster --external
 
 Создание тестового приложения
 
-Ожидаемый результат:
-
-Git репозиторий с тестовым приложением и Dockerfile.
-Регистри с собранным docker image. В качестве регистри может быть DockerHub или Yandex Container Registry, созданный также с помощью terraform.
+https://github.com/Lokkie7/app-new - репозиторий с файлами приложения
+https://hub.docker.com/repository/docker/lokkie7/nginx-app-simple/general - образ
