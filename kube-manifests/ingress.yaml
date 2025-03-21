@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: penguin
+  labels:
+    name: penguin
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: penguin.space
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: penguin-service
+            port:
+              number: 80
