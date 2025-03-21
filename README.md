@@ -33,3 +33,9 @@ yc managed-kubernetes cluster get-credentials k8s-cluster --external
 
 https://github.com/Lokkie7/app-new - репозиторий с файлами приложения
 https://hub.docker.com/repository/docker/lokkie7/nginx-app-simple/general - Dockerfile
+
+4. Подготовка cистемы мониторинга и деплой приложения
+
+Веб интерфейсы kube=prometheus и приложение будут работать через Ingress.
+У меня почему-то не получается найти созданные ресурсы в интернете
+пример манифестов для приложения приложен в директории kube-manifests
