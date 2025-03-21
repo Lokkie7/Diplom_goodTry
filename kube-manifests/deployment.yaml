@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: penguin-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: penguin
+  template:
+    metadata:
+      labels:
+        app: penguin
+    spec:
+      containers:
+      - name: penguin
+        image: lokkie7/nginx-app-simple:latest
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "200m"
+        ports:
+        - containerPort: 80
