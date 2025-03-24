@@ -36,6 +36,16 @@ https://hub.docker.com/repository/docker/lokkie7/nginx-app-simple/general - Dock
 
 4. Подготовка cистемы мониторинга и деплой приложения
 
-Веб интерфейсы kube=prometheus и приложение будут работать через Ingress.
-У меня почему-то не получается найти созданные ресурсы в интернете
-пример манифестов для приложения приложен в директории kube-manifests
+Мною была выполнена установка системы мониторинга через kube-prometheus
+
+![image](https://github.com/user-attachments/assets/602b4b37-a4cd-4f7d-9ad8-d9d515ec7ad0)
+
+Для того чтобы быстро получить доступ к веб-интерфейсу Grafana я открыла доступ к ней через сервис NodePort
+
+grafana-service.yaml
+
+![image](https://github.com/user-attachments/assets/fbc48e59-5784-4a0d-83ab-a1ecdea5bce0)
+
+Предустановленные дашборды kube-prometheus работают сразу
+
+![image](https://github.com/user-attachments/assets/30999446-7354-4d59-8d1c-99b32c4b6a09)
