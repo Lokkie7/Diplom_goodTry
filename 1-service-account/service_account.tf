@@ -44,3 +44,21 @@ resource "yandex_resourcemanager_folder_iam_member" "edit" {
   role      = "editor"
   member    = "serviceAccount:${yandex_iam_service_account.sa.id}"
 }
+
+resource "yandex_resourcemanager_folder_iam_member" "alb" {
+  folder_id = var.folder_id
+  role      = "alb.editor"
+  member    = "serviceAccount:${yandex_iam_service_account.sa.id}"
+}
+
+resource "yandex_resourcemanager_folder_iam_member" "cert" {
+  folder_id = var.folder_id
+  role      = "certificate-manager.certificates.downloader"
+  member    = "serviceAccount:${yandex_iam_service_account.sa.id}"
+}
+
+resource "yandex_resourcemanager_folder_iam_member" "comp" {
+  folder_id = var.folder_id
+  role      = "compute.viewer"
+  member    = "serviceAccount:${yandex_iam_service_account.sa.id}"
+}
