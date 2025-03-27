@@ -1,4 +1,4 @@
 variable "service_sa" {
   type        = string
-  default     = "..."
+  default     = "aje97kc095ucnnog5vk1"
 }

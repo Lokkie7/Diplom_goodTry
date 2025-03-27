@@ -91,6 +91,18 @@ resource "yandex_vpc_security_group" "k8s-cluster-traffic" {
     protocol       = "TCP"
     v4_cidr_blocks = ["0.0.0.0/0"]
   }
+  ingress {
+    description    = "Правило для входящего трафика, разрешающее доступ к API Kubernetes (порт 80)."
+    port           = 80
+    protocol       = "TCP"
+    v4_cidr_blocks = ["0.0.0.0/0"]
+  }
+  ingress {
+    description    = "Для проверок состояния узлов балансировщика"
+    port           = 30080
+    protocol       = "ANY"
+    v4_cidr_blocks = ["0.0.0.0/0"]
+  }
   egress {
     description    = "Правило для исходящего трафика, разрешающее передачу трафика между мастером и подами metric-server."
     port           = 4443

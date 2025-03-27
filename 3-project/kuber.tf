@@ -34,7 +34,7 @@ resource "yandex_kubernetes_node_group" "worker-nodes-a" {
   }
   scale_policy {
     fixed_scale {
-      size = 1
+      size = 3
     }
   }
   instance_template {
