@@ -49,3 +49,7 @@ grafana-service.yaml
 Предустановленные дашборды kube-prometheus работают сразу
 
 ![image](https://github.com/user-attachments/assets/30999446-7354-4d59-8d1c-99b32c4b6a09)
+
+
+
+![image](https://github.com/user-attachments/assets/61c7c0de-206d-4be5-91fa-f6cef48f2b6f)
