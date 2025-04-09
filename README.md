@@ -37,6 +37,10 @@ https://github.com/Lokkie7/app-new - репозиторий с файлами п
 
 https://hub.docker.com/repository/docker/lokkie7/nginx-app-simple/general - Dockerfile
 
+Мое приложение это статичный сайт
+
+![image](https://github.com/user-attachments/assets/3a02ff61-fcc8-4ddb-be89-918b00b1e9b0)
+
 ---
 4. Подготовка cистемы мониторинга и деплой приложения
 
