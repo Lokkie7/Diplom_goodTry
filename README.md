@@ -61,3 +61,5 @@ grafana-service.yaml
 
 ![image](https://github.com/user-attachments/assets/55ba39d4-68f4-4863-b485-0aad714e56ba)
 
+![image](https://github.com/user-attachments/assets/3387f680-0543-466d-8b57-6e68a8baf619)
+
