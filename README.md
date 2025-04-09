@@ -27,6 +27,7 @@ yc managed-kubernetes cluster get-credentials k8s-cluster --external
 Команда kubectl get pods --all-namespaces отрабатывает без ошибок:
 
 ![image](https://github.com/user-attachments/assets/1be3c3cf-9d00-4462-afb5-687362d78d88)
+
 ---
 3. Создание тестового приложения
 
@@ -35,6 +36,7 @@ yc managed-kubernetes cluster get-credentials k8s-cluster --external
 https://github.com/Lokkie7/app-new - репозиторий с файлами приложения
 https://hub.docker.com/repository/docker/lokkie7/nginx-app-simple/general - Dockerfile
 
+---
 4. Подготовка cистемы мониторинга и деплой приложения
 
 Мною была выполнена установка системы мониторинга через kube-prometheus
@@ -51,6 +53,7 @@ grafana-service.yaml
 
 ![image](https://github.com/user-attachments/assets/30999446-7354-4d59-8d1c-99b32c4b6a09)
 
+---
 
 ![image](https://github.com/user-attachments/assets/68fef964-dd5e-4b77-86bf-e0a434521417)
 
