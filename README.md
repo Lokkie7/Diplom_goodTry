@@ -20,7 +20,7 @@
 
 Создание кластера kubernetes выполняется в директории 3-project. После разворачивания инфраструктуры был настроен файл ~/.kube/config командой:
 
-yc managed-kubernetes cluster get-credentials k8s-cluster --external
+yc managed-kubernetes cluster get-credentials k8s-cluster --external --force
 
 Пример конфигурационного файла ~/.kube/config представлен в корне текущего репозитория в файле - kubeconfig-example. Чувствительная информация скрыта.
 
