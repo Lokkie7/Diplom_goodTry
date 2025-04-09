@@ -26,7 +26,7 @@ yc managed-kubernetes cluster get-credentials k8s-cluster --external
 Команда kubectl get pods --all-namespaces отрабатывает без ошибок:
 
 ![image](https://github.com/user-attachments/assets/1be3c3cf-9d00-4462-afb5-687362d78d88)
-
+<br>
 3. Создание тестового приложения
 
 Мной была подготовлена простая конфигурация статического сайта на nginx.
