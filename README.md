@@ -56,6 +56,9 @@ grafana-service.yaml
 
 ![image](https://github.com/user-attachments/assets/30999446-7354-4d59-8d1c-99b32c4b6a09)
 
+Я успешно настроила Atlantis для автоматического деплоя конфигурации kubernetes из репозитория github по pull реквесту
+![image](https://github.com/user-attachments/assets/55ba39d4-68f4-4863-b485-0aad714e56ba)
+
 ---
 
 ![image](https://github.com/user-attachments/assets/68fef964-dd5e-4b77-86bf-e0a434521417)
@@ -66,7 +69,7 @@ grafana-service.yaml
 
 ![image](https://github.com/user-attachments/assets/61c7c0de-206d-4be5-91fa-f6cef48f2b6f)
 
-![image](https://github.com/user-attachments/assets/55ba39d4-68f4-4863-b485-0aad714e56ba)
+
 
 ![image](https://github.com/user-attachments/assets/3387f680-0543-466d-8b57-6e68a8baf619)
 
