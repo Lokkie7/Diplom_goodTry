@@ -15,7 +15,7 @@
 Сохранение конфигурации в бакете: 
 ![image](https://github.com/user-attachments/assets/fe4cdf3f-dcce-4472-947f-ace939be44db)
 
-(<br>)
+---
 2. Создание Kubernetes кластера
 
 Создание кластера kubernetes выполняется в директории 3-project. После разворачивания инфраструктуры был настроен файл ~/.kube/config командой:
