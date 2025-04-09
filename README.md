@@ -57,19 +57,21 @@ grafana-service.yaml
 ![image](https://github.com/user-attachments/assets/30999446-7354-4d59-8d1c-99b32c4b6a09)
 
 Я успешно настроила Atlantis для автоматического деплоя конфигурации kubernetes из репозитория github по pull реквесту
+
+Пул реквест на Github
+![image](https://github.com/user-attachments/assets/61c7c0de-206d-4be5-91fa-f6cef48f2b6f)
+
+Как это выглядит в Atlantis
 ![image](https://github.com/user-attachments/assets/55ba39d4-68f4-4863-b485-0aad714e56ba)
 
 ---
 
+Настройку CI/CD я выполнила с помощью Teamcity
 ![image](https://github.com/user-attachments/assets/68fef964-dd5e-4b77-86bf-e0a434521417)
 
 ![image](https://github.com/user-attachments/assets/9d310877-a4c1-45c5-a8bd-58c4243e3a05)
 
 ![image](https://github.com/user-attachments/assets/00c6a472-7d5d-45ea-952f-1a4fa4045e03)
-
-![image](https://github.com/user-attachments/assets/61c7c0de-206d-4be5-91fa-f6cef48f2b6f)
-
-
 
 ![image](https://github.com/user-attachments/assets/3387f680-0543-466d-8b57-6e68a8baf619)
 
