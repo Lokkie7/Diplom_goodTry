@@ -34,6 +34,7 @@ yc managed-kubernetes cluster get-credentials k8s-cluster --external --force
 Мной была подготовлена простая конфигурация статического сайта на nginx.
 
 https://github.com/Lokkie7/app-new - репозиторий с файлами приложения
+
 https://hub.docker.com/repository/docker/lokkie7/nginx-app-simple/general - Dockerfile
 
 ---
