@@ -67,12 +67,10 @@ grafana-service.yaml
 ---
 
 Настройку CI/CD я выполнила с помощью Teamcity
-![image](https://github.com/user-attachments/assets/68fef964-dd5e-4b77-86bf-e0a434521417)
+![image](https://github.com/user-attachments/assets/3387f680-0543-466d-8b57-6e68a8baf619)
 
 ![image](https://github.com/user-attachments/assets/9d310877-a4c1-45c5-a8bd-58c4243e3a05)
 
 ![image](https://github.com/user-attachments/assets/00c6a472-7d5d-45ea-952f-1a4fa4045e03)
-
-![image](https://github.com/user-attachments/assets/3387f680-0543-466d-8b57-6e68a8baf619)
 
 ![image](https://github.com/user-attachments/assets/ce05a3b8-9800-4ea5-ac8a-4d92dea77668)
