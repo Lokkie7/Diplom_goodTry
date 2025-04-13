@@ -25,10 +25,10 @@ variable "default_zone_1" {
 
 variable "access_key" {
   type        = string
-  default     = "YCAJEZ2zU2bghSBDJJGgKGBcH"
+  default     = "..."
 }
 
 variable "secret_key" {
   type        = string
-  default     = "YCOjwfNrIFfdI2Of1ge9OkPH4U93GRKLv9LCbIU7"
+  default     = "..."
 }
