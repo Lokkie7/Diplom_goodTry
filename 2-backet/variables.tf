@@ -1,10 +1,3 @@
-###cloud vars
-variable "token" {
-  type        = string
-  default     = "..."
-  description = "OAuth-token; https://cloud.yandex.ru/docs/iam/concepts/authorization/oauth-token"
-}
-
 variable "cloud_id" {
   type        = string
   default     = "..."
@@ -26,9 +19,11 @@ variable "default_zone_1" {
 variable "access_key" {
   type        = string
   default     = "..."
+  sensitive   = true
 }
 
 variable "secret_key" {
   type        = string
   default     = "..."
+  sensitive   = true
 }
